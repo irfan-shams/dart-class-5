@@ -1,22 +1,15 @@
 void main() {
-  List<int> numberList = [2, 5, 1, 4, 7, 3, 10, 9, 6, 8];
-  print("Original list: $numberList");
-  numberList.sort();
-  print("Sorted list: $numberList");
-  var revList = numberList.reversed.toList();
-  print("Reversed list: $revList");
-  print(numberList.length);
-  print(numberList.first);
-  print(numberList.last);
-  print(numberList[2]);
-  print(numberList.isEmpty);
-  print(numberList.isNotEmpty);
-  print(numberList.elementAt(7));
-  numberList.add(20);
-  numberList.addAll([100, 200, 300]);
-  print(numberList);
-  numberList.removeAt(0);
-  print(numberList);
-  numberList.insert(0, 1);
-  print(numberList);
+// num num1 = 0;
+// num num2 = 1;
+// num num3 = (num1++) + (num2);
+// print(num1);
+// print(num3);
+// num num4 = (num1--) + (num3);
+// print(num4);
+// num num5 = (num1--) - (--num3);
+// print(num5);
+var number = 3;
+for(int i = 1; i <= 10; i++) {
+  print("$number x $i = ${i*number}");
+}
 }
