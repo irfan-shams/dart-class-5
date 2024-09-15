@@ -17,6 +17,7 @@ void main() {
 //     "name": "Leanne Graham",
 //     "username": "Bret",
 //     "email": "Sincere@april.biz",
+//     "password": "123456",
 //     "address": {
 //       "street": "Kulas Light",
 //       "suite": "Apt. 556",
@@ -40,6 +41,7 @@ void main() {
 //     "name": "Ervin Howell",
 //     "username": "Antonette",
 //     "email": "Shanna@melissa.tv",
+//     "password": "123456",
 //     "address": {
 //       "street": "Victor Plains",
 //       "suite": "Suite 879",
@@ -63,6 +65,7 @@ void main() {
 //     "name": "Clementine Bauch",
 //     "username": "Samantha",
 //     "email": "Nathan@yesenia.net",
+//     "password": "123456",
 //     "address": {
 //       "street": "Douglas Extension",
 //       "suite": "Suite 847",
@@ -86,6 +89,7 @@ void main() {
 //     "name": "Patricia Lebsack",
 //     "username": "Karianne",
 //     "email": "Julianne.OConner@kory.org",
+//     "password": "123456",
 //     "address": {
 //       "street": "Hoeger Mall",
 //       "suite": "Apt. 692",
@@ -109,6 +113,7 @@ void main() {
 //     "name": "Chelsey Dietrich",
 //     "username": "Kamren",
 //     "email": "Lucio_Hettinger@annie.ca",
+//     "password": "123456",
 //     "address": {
 //       "street": "Skiles Walks",
 //       "suite": "Suite 351",
@@ -132,6 +137,7 @@ void main() {
 //     "name": "Mrs. Dennis Schulist",
 //     "username": "Leopoldo_Corkery",
 //     "email": "Karley_Dach@jasper.info",
+//     "password": "123456",
 //     "address": {
 //       "street": "Norberto Crossing",
 //       "suite": "Apt. 950",
@@ -155,6 +161,7 @@ void main() {
 //     "name": "Kurtis Weissnat",
 //     "username": "Elwyn.Skiles",
 //     "email": "Telly.Hoeger@billy.biz",
+//     "password": "123456",
 //     "address": {
 //       "street": "Rex Trail",
 //       "suite": "Suite 280",
@@ -178,6 +185,7 @@ void main() {
 //     "name": "Nicholas Runolfsdottir V",
 //     "username": "Maxime_Nienow",
 //     "email": "Sherwood@rosamond.me",
+//     "password": "123456",
 //     "address": {
 //       "street": "Ellsworth Summit",
 //       "suite": "Suite 729",
@@ -201,6 +209,7 @@ void main() {
 //     "name": "Glenna Reichert",
 //     "username": "Delphine",
 //     "email": "Chaim_McDermott@dana.io",
+//     "password": "123456",
 //     "address": {
 //       "street": "Dayna Park",
 //       "suite": "Suite 449",
@@ -224,6 +233,7 @@ void main() {
 //     "name": "Clementina DuBuque",
 //     "username": "Moriah.Stanton",
 //     "email": "Rey.Padberg@karina.biz",
+//     "password": "123456",
 //     "address": {
 //       "street": "Kattie Turnpike",
 //       "suite": "Suite 198",
@@ -260,21 +270,51 @@ void main() {
   //   print(i['address']['geo']['lng']);
   // }
  
-  String correctUsername = "abc@gmail.com";
-  String correctPassword = "12345";
-  stdout.write("Enter Username: ");
-  String? username = stdin.readLineSync();
-  stdout.write("Enter Paswsword: ");
-  String? password = stdin.readLineSync();
-  int i = 0;
+  // String correctUsername = "abc@gmail.com";
+  // String correctPassword = "12345";
+  // stdout.write("Enter Username: ");
+  // String? username = stdin.readLineSync();
+  // stdout.write("Enter Paswsword: ");
+  // String? password = stdin.readLineSync();
+  // int i = 0;
 
-  while (i < 3) {
-    if (username == correctUsername && password == correctPassword){
-      print("Login Successfully");
-      break;
-    } else {
-      print("Wrong Username or Password");      
-    } 
-    i++;           
+  // var maxAttempts = 4;
+  // var attempts = 0;
+
+  // while (i < 3) {
+  //   if (username == users[i] && password == correctPassword){
+  //     print("Login Successfully");
+  //     break;
+  //   } else {
+  //     print("Wrong Username or Password"); 
+  //     break;     
+  //   } 
+  //   i++;           
+  // }
+
+  // do {
+  //   var username = stdin.readLineSync();
+  //   var password = stdin.readLineSync();
+  //   if (username == 'abc@gmail.com' && password == "12345") { 
+  //     print("Login Successfully");
+  //     break;
+  //   } else {
+  //     attempts++;
+  //     if (attempts == maxAttempts) {
+  //       print("Account Blocked");
+  //     } else {
+  //       print("Invalid username or password");
+  //       print("Please try again");
+  //     }
+  //   }
+  // } while (attempts < maxAttempts);
+  printTable(4);
+  print(" ");
+  printTable(5);
+}
+
+printTable(table){
+  for(var i=1; i<=10; i++){
+    print(i * table);
   }
 }
