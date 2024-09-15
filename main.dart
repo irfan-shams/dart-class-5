@@ -8,7 +8,7 @@ void main() {
 // print(num4);
 // num num5 = (num1--) - (--num3);
 // print(num5);
-var number = 3;
+var number = 5;
 for(int i = 1; i <= 10; i++) {
   print("$number x $i = ${i*number}"); 
 }
