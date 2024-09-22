@@ -16,7 +16,7 @@ void main() {
   //   student['percentage'] = result;
   // }
   // print(students);
-  print(abc(0, 0, 30));
+  // print(abc(0, 0, 30));
   // print(abcv2(eng: 20, urdu: ));
   abcv2(maths: 30, eng: 90,);
 }
