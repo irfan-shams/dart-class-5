@@ -314,7 +314,7 @@ void main() {
 }
 
 printTable(table){
-  for(var i=1; i<=10; i++){
+  for(var i = 1; i <= 10; i++) {
     print(i * table);
   }
 }
