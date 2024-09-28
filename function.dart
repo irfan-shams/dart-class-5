@@ -1,15 +1,15 @@
 void main() {
   // List students =[
   //   {
-  //     "name": "", 
-  //     "rollNo": "", 
+  //     "name": "",
+  //     "rollNo": "",
   //     "subjects": {
   //       "English": 50,
   //       "Urdu": 90
   //     },
   //     "percentage": "", // after
   //     "grade": "" // after
-  //   }    
+  //   }
   // ];
   // for (var student in students) {
   //   var result = calculateStudentMarks(student);
@@ -18,22 +18,25 @@ void main() {
   // print(students);
   // print(abc(0, 0, 30));
   // print(abcv2(eng: 20, urdu: ));
-  abcv2(maths: 30, eng: 90,);
+  abcv2(
+    maths: 30,
+    eng: 90,
+  );
 }
 
-abc([eng, urdu, maths]){
+abc([eng, urdu, maths]) {
   // print(eng);
   // print(urdu);
   // print(maths);
 }
-abcv2({int? eng, urdu = 0, required int maths}){
+abcv2({int? eng, urdu = 0, required int maths}) {
   print("eng: $eng");
   print("urdu: $urdu");
   print("maths: $maths");
 }
 
 // positioned required parameter
-// positioned optional parameter
+// positioned optional parameter          - Optional Positional Parameter []
 // optional parameter | named parameter
 // required parameter | named parameter
 
@@ -49,8 +52,6 @@ abcv2({int? eng, urdu = 0, required int maths}){
 //   print(percentage);
 //   return percentage;
 // }
-
-
 
 // marksSheet() {
 //   var name = "Ali";
