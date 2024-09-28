@@ -37,7 +37,7 @@ abcv2({int? eng, urdu = 0, required int maths}) {
 
 // positioned required parameter
 // positioned optional parameter          - Optional Positional Parameter []
-// optional parameter | named parameter
+// optional parameter | named parameter   - Optional Named Parameter {}
 // required parameter | named parameter   - Named parameters with required values {}
 
 // calculateStudentMarks(student) {
